@@ -162,14 +162,15 @@ body {
 
 .articles-container {
     margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    width: 100%;
 }
 
 .card {
     margin-bottom: 2rem;
-    max-width: 48%;
+    max-width: 100%;
 }
 
 .card-title {
